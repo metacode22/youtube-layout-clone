@@ -1,0 +1,12 @@
+// @use './utils.scss';
+// utils.my-grid();
+
+h1 {
+  color: tomato;
+  &::after {
+    content: '!!';
+  }
+  &::before {
+    content: '!!';
+  }
+}
