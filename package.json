@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify",
+    "build": "npx parcel build index.html --no-minify",
     "postinstall": "husky install",
     "format": "prettier --cache --write .",
     "lint": "eslint --cache ."
