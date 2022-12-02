@@ -343,7 +343,6 @@ body {
       .video-item-container {
         width: 100%;
         aspect-ratio: 5 / 4;
-        transition: all 0.5s;
 
         .image {
           width: 100%;
@@ -381,10 +380,6 @@ body {
               -webkit-box-orient: vertical;
             }
           }
-        }
-
-        &:hover {
-          transform: scale(1.1);
         }
       }
     }
