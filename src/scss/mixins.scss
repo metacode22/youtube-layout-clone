@@ -1,0 +1,23 @@
+@import './variables';
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin make-roundly {
+  border-radius: 50%;
+}
+
+@mixin hover-change-background-color($color: $color-shallow-focus) {
+  &:hover {
+    background-color: $color;
+  }
+}
